@@ -1,0 +1,24 @@
+BOLÃO EXPRESSO — PROJETO ANDROID (APK)
+
+Este pacote cria um aplicativo Android simples que abre o site oficial do Bolão Expresso dentro do app.
+Ele utiliza o site publicado em:
+https://kauagabrieloliveiracosta1-png.github.io/Bolao-Expresso/
+
+IMPORTANTE
+- O aplicativo precisa de internet.
+- Login, participantes, palpites, ranking e dados continuam no mesmo Supabase do site.
+- Alterações publicadas no site aparecem no app sem recompilar este APK.
+- Este pacote é o projeto-fonte Android, não um APK já compilado.
+- O ícone é provisório; não usa a logo personalizada.
+
+COMO GERAR O APK PELO GITHUB
+1. Crie um repositório novo no GitHub, por exemplo: bolao-expresso-android.
+2. Extraia este ZIP no computador.
+3. Envie todos os arquivos e pastas extraídos para a raiz do repositório (incluindo a pasta .github).
+4. Abra a aba Actions do repositório.
+5. Se necessário, habilite GitHub Actions.
+6. Execute o workflow “Gerar APK Android” em Run workflow.
+7. Quando terminar com sucesso, abra a execução e baixe o artefato “bolao-expresso-apk”.
+8. Dentro do ZIP baixado estará o arquivo app-debug.apk. Transfira-o para o Android e instale.
+
+Se o GitHub perguntar sobre permissões de Actions, permita executar workflows e enviar artefatos.
